@@ -1,0 +1,20 @@
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.text-field {
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.result-container {
+    border: 2px solid black;
+    padding: 2rem;
+}
