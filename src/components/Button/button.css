@@ -1,0 +1,43 @@
+.button {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+
+.small-button {
+    width: 10%;
+    background-color: rgb(39, 214, 39);
+    color: white;
+}
+
+.small-button-only-border {
+    width: 15%;
+    border: 2px solid rgb(39, 214, 39);
+    background-color: transparent;
+}
+
+.large-button {
+    width: 20%;
+    background-color: orangered;
+    color: white;
+}
+
+.large-button-only-border {
+    width: 20%;
+    border: 2px solid orangered;
+    background-color: transparent;
+}
+
+.hover-button {
+    width: 20%;
+    border: 2px solid orangered;
+    background-color: transparent;
+}
+
+.hover-button:hover {
+    width: 20%;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white;
+}
